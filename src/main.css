@@ -1,0 +1,19 @@
+@import "./fonts/stylesheet.css";
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Graphik LC", system-ui, sans-serif;
+        font-weight: normal;
+    }
+}
+
+@layer utilities {
+    .font-lc {
+        font-family: "Graphik Compact LC", system-ui, sans-serif;
+        font-weight: 700;
+    }
+}

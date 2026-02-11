@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <title>Mera Landing</title>
+</head>
+
+<body class="overflow-x-hidden pt-[80px]">
+<header id="header" class="w-full px-[12px] py-[20px] flex items-center justify-between fixed z-50 top-0 left-0">
+    <!-- Logo -->
+    <div class="text-lg font-semibold">
+        <img src="/src/img/header-logo.svg" alt="header-logo">
+    </div>
+    <!-- Burger -->
+    <button id="burger"
+            class="size-[40px] shadow-[0_0_20px_rgba(38,38,38,0.1)] rounded-full flex flex-col items-center justify-center gap-y-[5px]">
+        <span class="w-[20px] h-[1px] bg-[#9298A0] block"></span>
+        <span class="w-[20px] h-[1px] bg-[#9298A0] block"></span>
+        <span class="w-[20px] h-[1px] bg-[#9298A0] block"></span>
+    </button>
+</header>
+<main class="relative">
+    <div class="flex justify-center items-center pt-[40px]">
+        <img src="/src/img/green-logo.svg" alt="green-logo">
+    </div>
+    <div class="flex justify-center items-center pt-[26px]">
+        <p class="font-lc text-[48px] text-center" style="line-height: 40px;" id="hero-title">
+            <span id="hero-1" class="inline-block">Put</span> <span id="hero-2" class="inline-block">Yourself</span>
+            <br> <span class="inline-block" id="hero-3">on the Map</span>
+        </p>
+    </div>
+    <div class="flex justify-center items-center pt-[12px]">
+        <p class="text-[20px]">Geosocial Network</p>
+    </div>
+    <div class="flex justify-center items-center">
+        <a href="#" class="block">
+            <img src=/src/img/appstore.svg alt="app-store">
+        </a>
+        <a href="#" class="block">
+            <img src="/src/img/googleplay.svg" alt="google-play">
+        </a>
+    </div>
+    <div id="scene" class="relative mt-[200px] h-[100vh]">
+        <div class="absolute z-2 w-[230px] left-[50%] -top-[50px] -translate-x-[50%]">
+            <img id="iphone" src="/src/img/iphone.png" alt="iphone">
+            <div id="iphone-content" class="absolute top-[50%] left-[50%] -translate-[50%] flex flex-col justify-center items-center w-full h-full">
+                <img class="mb-[8px] relative" id="user-pin" src="/src/img/pin-user.svg"
+                         alt="user-pin">
+                <div id="dialog-2" class="relative bg-white w-[188px] h-[240px] rounded-[10px]">
+                        <div class="absolute h-[2px] w-[44px] bg-[#E1E4E6] rounded-[2px] top-[5px] left-[50%] -translate-x-[50%]"></div>
+                        <img id="user-pic-1" src="/src/img/user-pic-1.png"
+                             class="z-30 absolute left-[50%] -translate-x-[50%] top-[40px]" alt="user-pic-1">
+                        <img id="user-pic-2" src="/src/img/user-pic-2.png" class="z-20 absolute left-[15px] top-[40px]"
+                             alt="user-pic-2">
+                        <img id="user-pic-3" src="/src/img/user-pic-3.png" class="z-20 absolute left-[15px] top-[80px]"
+                             alt="user-pic-3">
+                        <img id="user-pic-4" src="/src/img/user-pic-4.png" class="z-20 absolute right-[15px] top-[40px]"
+                             alt="user-pic-4">
+                        <img id="user-pic-5" src="/src/img/user-pic-5.png" class="z-20 absolute right-[15px] top-[85px]"
+                             alt="user-pic-5">
+                        <div class="absolute w-full top-[150px]">
+                            <p class="flex justify-center"><span class="shrink-0">Mira Flores</span><img
+                                    src="/src/img/verified.svg" class="ml-[2px]" alt="verified"></p>
+                            <p class="text-[#A6C90D] text-[10px] text-center font-[300]">@miraflores</p>
+                            <p class="flex justify-center mb-[8px]"><img src="/src/img/icon-home.svg" alt="home"><span
+                                    class="text-[#9298A0] ml-[4px] text-[8px]">Dubai, UAE</span></p>
+                            <div class="text-[10px] px-[8px] flex justify-between">
+                                <p class="text-center">
+                                    12 <br> Friends
+                                </p>
+                                <p class="text-center">
+                                    105 <br> Subscribers
+                                </p>
+                                <p class="text-center">
+                                    0 <br> Subscribed
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                <div id="dialog-3"
+                     class="bg-white flex items-center w-[300px] p-[16px] rounded-[30px] mt-[10px]">
+                    <div class="flex flex-col justify-center">
+                        <img src="/src/img/user-pic-6.png" alt="user-pic" class="mb-[6px]">
+                        <p class="text-[14px]">Addison</p>
+                    </div>
+                    <p class="ml-[14px] text-[14px]">
+                        Locate people and experiences near you
+                    </p>
+                </div>
+                <div id="dialog-4" class="bg-white w-[188px] rounded-[10px]">
+                    <div class="absolute h-[2px] w-[44px] bg-[#E1E4E6] rounded-[2px] top-[5px] left-[50%] -translate-x-[50%]"></div>
+                    <div class="relative top-[10px] text-center px-[8px]">
+                        <img class="inline-block" src="/src/img/media.png" alt="media">
+                    </div>
+                    <div class="pt-[20px] px-[8px]">
+                        <p class="text-[9px] font-light text-[#FFB800] mb-[4px]">Today</p>
+                        <p class="text-[9px] font-bold">I’ll tell you how to improve product metrics</p>
+                        <p class="text-[9px] inline-flex"><img src="/src/img/send.svg" alt="send"><span class="ml-[4px]">Dubai, Palm Jumeirah... ></span>
+                        </p>
+                    </div>
+                    <div class="px-[8px] pb-[8px] flex justify-between">
+                        <div class="flex">
+                            <img src="/src/img/user-pic-7.svg" alt="user-pic-7">
+                            <div class="flex ml-[2px]">
+                                <img src="/src/img/user-pic-8.svg" alt="user-pic-8">
+                                <img src="/src/img/user-pic-9.svg" class="-ml-[14px]" alt="user-pic-9">
+                                <img src="/src/img/user-pic-10.svg" class="-ml-[14px]" alt="user-pic-10">
+                                <img src="/src/img/user-pic-counter.svg" class="-ml-[14px]" alt="user-pic-counter">
+                            </div>
+                        </div>
+                        <button class="bg-[#C6EF10] text-center rounded-[18px] text-[9px] px-[8px] py-[8px]"
+                                id="dialog-button-1">Wanna go
+                        </button>
+                    </div>
+                </div>
+                <div id="dialog-5"
+                     class="bg-white rounded-[32px] w-[300px] p-[16px] flex mt-[20px]">
+                    <img src="/src/img/basket-ball.svg" alt="basket-ball">
+                    <p class="text-[14px] ml-[8px]">
+                        View posts and Moments directly on the map, and even check the weather — all in one seamless experience
+                    </p>
+                </div>
+                <div id="dialog-6" class="bg-white w-[195px] h-[220px] z-1 overflow-hidden">
+                    <div class="absolute h-[2px] w-[44px] bg-[#E1E4E6] rounded-[2px] top-[5px] left-[50%] -translate-x-[50%]"></div>
+                    <div class="flex mt-[20px] justify-between">
+                        <img src="/src/img/dialog-button-burger.svg" alt="dialog-button-burger">
+                        <div class="flex text-[8px]">
+                            <p>HIWAY</p>
+                            <p class="ml-[6px]">SUBS</p>
+                        </div>
+                        <div class="size-[19px]"></div>
+                    </div>
+                    <div class="flex mt-[10px]">
+                        <img src="/src/img/story.svg" alt="story">
+                        <img src="/src/img/story-1.svg" class="-ml-[8px]" alt="story">
+                        <img src="/src/img/story-2.svg" alt="story">
+                        <img src="/src/img/story-3.svg" alt="story">
+                    </div>
+                    <div class="flex justify-between mt-[10px]">
+                        <div class="flex">
+                            <img src="/src/img/user-pic-11.svg" alt="user-11">
+                            <div class="ml-[6px]">
+                                <p class="text-[8px] flex items-center">
+                                    <span class="shrink-0">Sofia Harper</span>
+                                    <img class="ml-[2px] size-[8px]" src="/src/img/verified.svg" alt="verified">
+                                    <span class="ml-[2px] text-[#C6EF10]">Subscribe</span>
+                                </p>
+                                <p class=" text-[6px] text-[#9298A0] font-light">30 minutes Dubai</p>
+                            </div>
+                        </div>
+                        <img src="/src/img/icon-kebab.svg" alt="icon-kebab">
+                    </div>
+                    <p class="text-[8px]">
+                        Everyday practice shows that the existing structure of the organization contributes to the preparation
+                        and implementation of the development model. A varied and rich experience is the beginning of everyday
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="dialog-1"
+             class="bg-white w-[300px] rounded-[32px] h-[150px]">
+            <div class="flex justify-between items-center px-[16px] py-[16px]">
+                <p class="font-lc text-[35px]" style="line-height: 80%">Map</p>
+                <div class="flex">
+                    <img id="event-1" src="/src/img/event.svg" alt="event-1">
+                    <img id="event-2" src="/src/img/event.svg" class="-ml-[8px]" alt="event-1">
+                    <img id="event-3" src="/src/img/event.svg" class="-ml-[8px]" alt="event-1">
+                    <img id="event-4" src="/src/img/event.svg" class="-ml-[8px]" alt="event-1">
+                </div>
+            </div>
+            <p class="px-[16px] text-sm" id="text-1">
+                Explore the world with our cutting-edge interactive map. Find hidden gems, exciting events, and
+                captivating stories
+            </p>
+        </div>
+        <img id="map-1" src="/src/img/map-1.png" class="w-full absolute left-[50%] -translate-x-[50%] top-0"
+             alt="map-1">
+    </div>
+</main>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

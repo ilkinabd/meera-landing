@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Graphik Compact LC';
+    src: url('GraphikCompactLC-Black.eot');
+    src: url('GraphikCompactLC-Black.eot?#iefix') format('embedded-opentype'),
+        url('GraphikCompactLC-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Compact LC';
+    src: url('GraphikCompactLC-Light.eot');
+    src: url('GraphikCompactLC-Light.eot?#iefix') format('embedded-opentype'),
+        url('GraphikCompactLC-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Compact LC';
+    src: url('GraphikCompactLC-Regular.eot');
+    src: url('GraphikCompactLC-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GraphikCompactLC-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Compact LC';
+    src: url('GraphikCompactLC-Bold.eot');
+    src: url('GraphikCompactLC-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GraphikCompactLC-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Compact LC';
+    src: url('GraphikCompactLC-Medium.eot');
+    src: url('GraphikCompactLC-Medium.eot?#iefix') format('embedded-opentype'),
+        url('GraphikCompactLC-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Compact LC';
+    src: url('GraphikCompactLC-Super.eot');
+    src: url('GraphikCompactLC-Super.eot?#iefix') format('embedded-opentype'),
+        url('GraphikCompactLC-Super.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Compact LC';
+    src: url('GraphikCompactLC-Thin.eot');
+    src: url('GraphikCompactLC-Thin.eot?#iefix') format('embedded-opentype'),
+        url('GraphikCompactLC-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Compact LC';
+    src: url('GraphikCompactLC-Semibold.eot');
+    src: url('GraphikCompactLC-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('GraphikCompactLC-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LC';
+    src: url('GraphikLC-Bold.eot');
+    src: url('GraphikLC-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GraphikLC-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LC';
+    src: url('GraphikLC-Black.eot');
+    src: url('GraphikLC-Black.eot?#iefix') format('embedded-opentype'),
+        url('GraphikLC-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LC';
+    src: url('GraphikLC-Light.eot');
+    src: url('GraphikLC-Light.eot?#iefix') format('embedded-opentype'),
+        url('GraphikLC-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LC';
+    src: url('GraphikLC-Extralight.eot');
+    src: url('GraphikLC-Extralight.eot?#iefix') format('embedded-opentype'),
+        url('GraphikLC-Extralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LC';
+    src: url('GraphikLC-Regular.eot');
+    src: url('GraphikLC-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GraphikLC-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LC';
+    src: url('GraphikLC-Semibold.eot');
+    src: url('GraphikLC-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('GraphikLC-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LC';
+    src: url('GraphikLC-Medium.eot');
+    src: url('GraphikLC-Medium.eot?#iefix') format('embedded-opentype'),
+        url('GraphikLC-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LC Super';
+    src: url('GraphikLC-Super.eot');
+    src: url('GraphikLC-Super.eot?#iefix') format('embedded-opentype'),
+        url('GraphikLC-Super.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LC';
+    src: url('GraphikLC-Thin.eot');
+    src: url('GraphikLC-Thin.eot?#iefix') format('embedded-opentype'),
+        url('GraphikLC-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
