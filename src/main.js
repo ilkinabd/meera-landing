@@ -92,10 +92,6 @@ tl.to("#map-1", {
     ease: "none",
 }, 0)
 
-// tl.to('#dialog-1', {
-//     opacity: 0,
-// }, 0)
-
 // move map
 tl.to("#map-1", {
     y: '-25%',
@@ -149,8 +145,6 @@ tl.from("#dialog-5", {
     scale: 0
 }, ">")
 
-
-// tl.set("#dialog-4,#dialog-5", {display: "none"}, '>')
 tl.to("#iphone", {
     scale: 1,
     transformOrigin: "center",
@@ -162,19 +156,17 @@ tl.to("#map-1", {
 }, "<")
 tl.to('#iphone-content', {
     scale: 0.7,
-},'<')
-
-// tl.to("#dialog-4", {
-//     scale: 0.7,
-//     transformOrigin: "top center",
-// }, "<")
-//
-// tl.to("#dialog-5", {
-//     scale: 0.6,
-//     top: 280,
-// }, '<')
-
+}, '<')
+tl.to('#map-1', {
+    y: '-75%'
+}, '>')
+tl.to('#dialog-4,#dialog-5', {
+    opacity: 0,
+}, '<')
+tl.set("#dialog-4,#dialog-5", {display: "none"}, '>')
+tl.set('#iphone-content', {scale: 1, justifyContent: 'end', overflow: 'hidden'}, '<')
+tl.set("#dialog-6", {display: "block"}, '<')
 tl.from("#dialog-6", {
     opacity: 0,
     y: 100,
-}, '>')
+}, '<')

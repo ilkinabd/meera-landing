@@ -46,9 +46,9 @@
         </a>
     </div>
     <div id="scene" class="relative mt-[200px] h-[100vh]">
-        <div class="absolute z-2 w-[230px] left-[50%] -top-[50px] -translate-x-[50%]">
-            <img id="iphone" src="/src/img/iphone.png" alt="iphone">
-            <div id="iphone-content" class="absolute top-[50%] left-[50%] -translate-[50%] flex flex-col justify-center items-center w-full h-full">
+        <div id="phone" class="absolute z-2 w-[230px] left-[50%] -top-[50px] -translate-x-[50%]">
+            <img id="iphone" src="/src/img/iphone.png" alt="iphone" class="relative z-2">
+            <div id="iphone-content" class="absolute top-[50%] left-[50%] -translate-[50%] flex flex-col justify-center items-center w-full h-full z-1">
                 <img class="mb-[8px] relative" id="user-pin" src="/src/img/pin-user.svg"
                          alt="user-pin">
                 <div id="dialog-2" class="relative bg-white w-[188px] h-[240px] rounded-[10px]">
@@ -181,6 +181,7 @@
         <img id="map-1" src="/src/img/map-1.png" class="w-full absolute left-[50%] -translate-x-[50%] top-0"
              alt="map-1">
     </div>
+    <div class="h-[300vh] w-full"></div>
 </main>
 <script type="module" src="/src/main.js"></script>
 </body>
